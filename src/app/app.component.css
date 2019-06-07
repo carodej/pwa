@@ -1,0 +1,38 @@
+main {
+  margin-top: 70px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.5px solid #e9e9e9;
+}
+.navbar .navbar-title {
+  display: flex;
+  justify-self: center;
+}
+.navbar h4 {
+  margin-top: 0.66em;
+  margin-bottom: 0.66em;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 24px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+  margin-left: 16px;
+  border-radius: 8px;
+}
+.card img {
+  width: 100%;
+}
+.card .content {
+  padding: 20px;
+}
+.container {
+  padding: 2px 16px;
+}
